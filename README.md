@@ -1,2 +1,4 @@
 # dos-tor
-dossare script passing in Tor network
+script for dos attacks passing in the tor network <br>
+sudo python3 setup.py <br>
+sudo python3 start.py <br>
