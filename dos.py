@@ -1,8 +1,8 @@
 from scapy.all import *
-ip = input("insert target ip: \n")
-pkt=IP(dst=ip)/SYN()
+ip = input("insert target ip: ")
+pkt=IP(dst=ip)/TCP()
 try:
   while True:
-     r=srl(pkt)
+     r=sendp(pkt)
 except:
    print("\nexit")
